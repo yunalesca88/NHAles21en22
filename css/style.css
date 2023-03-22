@@ -1,0 +1,81 @@
+/*Styling header*/
+#melkweg {
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#melkweg img {
+    height: auto;
+    width: 100%;
+}
+
+#melkweg h1 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    color:white;
+    font-weight: bold;
+    font-size: 3em;
+    letter-spacing: 10px;
+}
+
+div.container-sm {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*nav*/
+.navbar-brand {
+    color: lightgray;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+/*Styling footer*/
+
+.footer {
+    background-color: #2f3444;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+/*Main*/
+
+.btn-primary {
+    --bs-btn-bg: green;
+    --bs-btn-border-color: green;
+    --bs-btn-hover-bg: lightgreen;
+    --bs-btn-active-bg: lightgreen;
+    --bs-btn-hover-border-color: lightgreen;
+    --bs-btn-active-border-color: lightgreen;
+}
+
+#berichtform {
+    height: 200px;
+}
+
+#h2form {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.col img {
+    height:auto;
+    width: 100%;
+    padding: 5px;
+}
+
+.row>* {
+    padding-right: 0;
+    padding-left: 0;
+}
